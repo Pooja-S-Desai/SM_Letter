@@ -43,16 +43,38 @@ B2 refers to the EASM heuristic baseline. It performs efficiency-aware switch mi
 ├── plot_results.py        # Script for generating figures
 └── README.md
 
-# Requirements
-Python 3.x
-Gurobi Optimizer
-NumPy
-Pandas
-NetworkX
-Matplotlib
+## Repository Structure
 
-Install the required Python packages using:
+```text
+.
+├── data/                  # Input topology files or generated network data
+├── results/               # Output CSV files and experiment results
+├── plots/                 # Generated figures
+├── src/                   # Source code for algorithms and experiments
+├── run_experiments.py     # Main script to run experiments
+├── plot_results.py        # Script for generating figures
+└── README.md
+```
+
+## Requirements
+
+The code was developed and tested using:
+
+- Python 3.x
+- Gurobi Optimizer
+- NumPy
+- Pandas
+- NetworkX
+- Matplotlib
+
+## Installation
+
+Install the required Python packages:
+
+```bash
 pip install numpy pandas networkx matplotlib
+```
 
 ## Note
-Gurobi must be installed separately with a valid academic or commercial license.
+
+Gurobi must be installed separately and a valid academic or commercial license must be activated before running the code.
