@@ -43,7 +43,7 @@ B2 refers to the EASM heuristic baseline. It performs efficiency-aware switch mi
 ├── plot_results.py        # Script for generating figures
 └── README.md
 
-##Requirements
+#Requirements
 Python 3.x
 Gurobi Optimizer
 NumPy
