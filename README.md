@@ -42,3 +42,17 @@ B2 refers to the EASM heuristic baseline. It performs efficiency-aware switch mi
 ├── run_experiments.py     # Main script to run experiments
 ├── plot_results.py        # Script for generating figures
 └── README.md
+
+##Requirements
+Python 3.x
+Gurobi Optimizer
+NumPy
+Pandas
+NetworkX
+Matplotlib
+
+Install the required Python packages using:
+pip install numpy pandas networkx matplotlib
+
+##Note
+Gurobi must be installed separately with a valid academic or commercial license.
